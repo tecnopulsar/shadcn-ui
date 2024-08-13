@@ -54,13 +54,11 @@ export default function Page() {
     },
   });
 
-  console.log(form);
-
   // 2. Define a submit handler.
   function onSubmit(values: z.infer<typeof formSchema>) {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
-    console.log({ values });
+    console.log(values.username );
     toast.success("Form sended", {
       className: "bg-green-900 text-black",
       duration: 3000,

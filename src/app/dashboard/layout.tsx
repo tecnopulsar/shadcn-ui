@@ -10,6 +10,7 @@ const links = [
   { name: "button", href: "button" },
   { name: "alert-dialog", href: "alertDialog" },
   { name: "dialog", href: "dialog" },
+  { name: "dialogFormCheck", href: "dialogFormCheck" },
   { name: "badge", href: "badge" },
   { name: "card", href: "card" },
   { name: "calendar", href: "calendar" },
@@ -20,6 +21,7 @@ const links = [
   { name: "data table", href: "data-table" },
   { name: "sonner", href: "sonner" },
   { name: "form", href: "form" },
+  { name: "hook form", href: "hookform" },
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 export default function DashboardLayout({
